@@ -14,9 +14,6 @@
   background-image: url("../../images/hero-bg.png");
   background-position: center bottom;
 }
-.hero-section {
-  /* min-height: 90vh; */
-}
 .hero-section .hero-top-overlay {
   position: absolute;
   left: 0;
