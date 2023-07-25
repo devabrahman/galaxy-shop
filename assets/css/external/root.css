@@ -1,0 +1,12 @@
+:root {
+  --primary-color: #252932;
+  --seconder-color: #6c6c6c;
+  --accent-color: #9fcb22;
+  --button-color: #14462e;
+  --light-gray: #f6fafb;
+  --footer-menu-color: #6ea68b;
+
+  /* fonts */
+  --primary-font: "Barlow", sans-serif;
+  --title-font: "Jost", sans-serif;
+}

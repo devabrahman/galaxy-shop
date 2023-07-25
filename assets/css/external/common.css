@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+body {
+  font-family: var(--primary-font);
+  font-weight: 400;
+}
+
+.content {
+  /* TODO:need to remove later */
+  max-width: 1110px;
+  margin: 0 auto;
+  /*  */
+}
