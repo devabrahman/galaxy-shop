@@ -27,3 +27,85 @@ body {
   margin: 0 auto;
   /*  */
 }
+
+/* button */
+.btn-callToAction {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 18px 35px;
+  position: relative;
+  z-index: 1;
+}
+.btn-callToAction::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--accent-color);
+  transition: all linear 0.5s;
+  border-radius: 5px;
+}
+.btn-callToAction::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--button-color);
+  transition: all linear 0.5s;
+  border-radius: 5px;
+}
+.btn-callToAction:hover::after {
+  height: 0%;
+}
+.btn-callToAction:hover {
+  color: #fff;
+}
+
+.btn-callToAction-alt {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 18px 35px;
+  position: relative;
+  z-index: 1;
+}
+.btn-callToAction-alt::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--button-color);
+
+  transition: all linear 0.5s;
+  border-radius: 5px;
+}
+.btn-callToAction-alt::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--accent-color);
+  transition: all linear 0.5s;
+  border-radius: 5px;
+}
+.btn-callToAction-alt:hover::after {
+  height: 00%;
+}
+.btn-callToAction-alt:hover {
+  color: #fff;
+}
