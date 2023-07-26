@@ -1,6 +1,11 @@
 /* Mobile Responsive */
 
 @media only screen and (max-width: 576px) {
+  /* Common Css Start */
+  .product-card {
+    max-width: 100%;
+  }
+  /* Common Css End */
   /* Navigation Section Start */
   .primary_nav {
     gap: 0;
@@ -38,6 +43,7 @@
     justify-content: center;
   }
   /* Hero section End */
+
   /* Featured Section Start */
   .featured-cards {
     padding-left: 15px;
@@ -45,4 +51,29 @@
     flex-wrap: wrap;
   }
   /* Featured Section End */
+
+  /* Product Section Start */
+  .promo-banner {
+    padding: 0 20px;
+  }
+  .promo-banner .promo-tagline {
+    padding: 0;
+    font-size: 35px;
+  }
+  /* Product Section End */
+
+  /* About Section Start */
+  .about-section .space-top {
+    padding-top: 0;
+  }
+  .about-card {
+    padding: 70px 15px;
+  }
+  /* About Section End */
+
+  /* Promotion Section Start */
+  .services-section .btn-callToAction-alt {
+    margin-bottom: 50px;
+  }
+  /* Promotion Section End */
 }

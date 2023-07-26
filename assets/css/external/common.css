@@ -166,6 +166,7 @@ body {
   flex-direction: column;
   align-items: center;
   transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+  z-index: 2;
 }
 .product-card > .hot-tag {
   color: #fff;
@@ -220,12 +221,7 @@ body {
 }
 
 /* Product Cart End */
-/* .button {
-  --offset: 10px;
-  --border-size: 2px;
-  display: block;
-  position: relative;
-} */
+
 .button__horizontal,
 .button__vertical {
   position: absolute;

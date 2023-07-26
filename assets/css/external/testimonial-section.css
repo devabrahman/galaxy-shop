@@ -1,0 +1,30 @@
+.testimonial-card {
+  padding: 45px;
+  background: #f6fafb;
+  border-top: 3px solid var(--accent-color);
+}
+.testimonial-card .quote {
+  color: var(--accent-color);
+  font-size: 50px;
+}
+.testimonial-card q {
+  font-style: italic;
+  font-size: 18px;
+  font-weight: 300;
+}
+.testimonial-card .service-ratting {
+  color: gold;
+  font-size: 15px;
+}
+.testimonial-card .clint-info {
+  font-size: 20px;
+  font-weight: 500;
+  color: #14462e;
+  font-family: var(--title-font);
+  margin-top: 15px;
+}
+.testimonial-card .clint-info span {
+  font-size: 15px;
+  color: var(--accent-color);
+  margin-left: 5px;
+}

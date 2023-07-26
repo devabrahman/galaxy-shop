@@ -17,3 +17,8 @@
 
 /* Service Section */
 @import url(./external/service-section.css);
+
+/* Service Section */
+@import url(./external/featured-product-section.css);
+/* Testimonial Section */
+@import url(./external/testimonial-section.css);
