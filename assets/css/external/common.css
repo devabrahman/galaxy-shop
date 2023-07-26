@@ -164,7 +164,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 2px solid transparent;
   transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
 }
 .product-card > .hot-tag {
@@ -194,8 +193,10 @@ body {
   background-color: var(--accent-color);
   color: #fff;
 }
-.product-card > .product-img {
-  max-height: 200px;
+.product-card > a > .product-img {
+  height: 200px;
+  /* object-fit: cover; */
+  margin-bottom: 15px;
 }
 .product-card > .product-ratting {
   color: gold;
@@ -227,10 +228,10 @@ body {
 .button__horizontal,
 .button__vertical {
   position: absolute;
-  top: -4px;
-  right: -4px;
-  bottom: -5px;
-  left: -4px;
+  top: -3px;
+  right: -3px;
+  bottom: -4px;
+  left: -3px;
   transition: transform 0.8s ease;
   z-index: -1;
 }
