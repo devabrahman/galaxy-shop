@@ -1,5 +1,8 @@
 .about-section {
   background: url("../../images/promotion-section-bg.jpg") no-repeat;
+  background-position: center center;
+  width: 100%;
+  background-size: cover;
 }
 .about-card {
   background-color: #fff;
@@ -7,20 +10,19 @@
   border-top: 2px solid var(--accent-color);
 }
 
-.about-card .about-title {
-  color: var(--accent-color);
-  font-family: var(--title-font);
-  font-size: 22px;
-  font-weight: 500;
+.about-card .section-titles .tagline,
+.about-card .section-titles .title {
+  text-align: left;
+  margin-bottom: 15px;
+  line-height: 1;
 }
 
-.about-card .about-tagline {
-  font-family: var(--title-font);
-  font-size: 45px;
-  font-weight: 600;
-  line-height: 1.1;
-}
 .about-card-description {
   font-size: 20px;
-  font-weight: lighter;
+  font-weight: 300;
+}
+
+.about-card .btn-callToAction-alt {
+  margin-top: 20px;
+  padding: 15px 40px;
 }
