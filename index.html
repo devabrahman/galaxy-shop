@@ -15,6 +15,7 @@
     <!-- Font Awesome -->
     <link href="./assets/css/fontawesome.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="./assets/css/brands.css" />
+    <link rel="stylesheet" href="./assets/css/regular.css" />
     <link rel="stylesheet" href="./assets/css/solid.css" />
     <!-- Custom Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -30,7 +31,7 @@
   </head>
   <body>
     <!-- Hero Section Start -->
-    <div class="container-fluid hero-fluid">
+    <header class="container-fluid hero-fluid">
       <div class="content hero-section">
         <img
           src="./assets/images/hero-top-bg.png"
@@ -83,7 +84,7 @@
                   <ul class="navbar-nav primary_nav_icon">
                     <li class="nav-item">
                       <a
-                        class="nav-link"
+                        class="nav-link inline-center"
                         href=""
                         target="_blank"
                         rel="noopener noreferrer"
@@ -93,7 +94,7 @@
                     </li>
                     <li class="nav-item">
                       <a
-                        class="nav-link"
+                        class="nav-link inline-center"
                         href=""
                         target="_blank"
                         rel="noopener noreferrer"
@@ -103,7 +104,7 @@
                     </li>
                     <li class="nav-item">
                       <a
-                        class="nav-link"
+                        class="nav-link inline-center"
                         href=""
                         target="_blank"
                         rel="noopener noreferrer"
@@ -113,13 +114,13 @@
                     </li>
                     <li class="nav-item">
                       <a
-                        class="nav-link item_icon_count"
+                        class="nav-link inline-center item_icon_count"
                         href=""
                         target="_blank"
                         rel="noopener noreferrer"
                       >
                         <i class="fa-solid fa-cart-shopping"></i>
-                        <span class="icon_count">0</span>
+                        <span class="icon_count inline-center">0</span>
                       </a>
                     </li>
                   </ul>
@@ -131,10 +132,10 @@
           <!-- Hero content start -->
           <div class="hero-content col-md-6">
             <h4 class="hero-content-tagline">Welcome To Our Grocery Store</h4>
-            <h2 class="hero-content-title">
+            <h1 class="hero-content-title">
               Shop Online For<br />
               Fresh Groceries
-            </h2>
+            </h1>
             <p class="hero-content-description">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam in
               praesentium consequuntur!
@@ -147,8 +148,105 @@
           <!-- Hero content End -->
         </div>
       </div>
-    </div>
+    </header>
     <!-- Hero Section End -->
+    <main>
+      <section class="container space-top space-bottom">
+        <div class="content">
+          <div class="row featured-cards">
+            <div class="col-md-4 featured-card d-flex justify-content-between">
+              <div class="text">
+                <h4>Get Every Vegetable You Need</h4>
+                <a href="">shop now <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+              <div class="img align-self-end">
+                <img
+                  src="./assets/images/featured-img-01.png"
+                  alt="featured-card-img"
+                  srcset=""
+                />
+              </div>
+            </div>
+
+            <div
+              class="col-md-4 featured-card featured-card-2nd d-flex justify-content-between"
+            >
+              <div class="text">
+                <h4>We Have Best Beverages Collection</h4>
+                <a href="">shop now <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+              <div class="img">
+                <img
+                  src="./assets/images/featured-img-02.png"
+                  alt="featured-card-img"
+                  srcset=""
+                />
+              </div>
+            </div>
+
+            <div
+              class="col-md-4 featured-card featured-card-3rd d-flex justify-content-between"
+            >
+              <div class="text">
+                <h4>Beauty And Health Products</h4>
+                <a href="">shop now <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+              <div class="img">
+                <img
+                  src="./assets/images/featured-img-03.png"
+                  alt="featured-card-img"
+                  srcset=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container space-bottom">
+        <div class="content">
+          <row>
+            <div class="col-12 section-titles">
+              <h5 class="tagline">Most Popular</h5>
+              <h2 class="title">Trending Products</h2>
+            </div>
+            <div class="col-12 products-grid">
+              <div class="product-card">
+                <span class="hot-tag inline-center">hot</span>
+                <div class="favorite-product inline-center">
+                  <i class="fa-solid fa-heart"></i>
+                </div>
+                <a href="./single-product.html"
+                  ><img
+                    src="./assets/images/products/01.png"
+                    alt="product-img"
+                    class="product-img"
+                /></a>
+                <div class="product-ratting">
+                  <i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i
+                  ><i class="fa-regular fa-star"></i
+                  ><i class="fa-regular fa-star"></i>
+                </div>
+                <h4 class="product-title text-capitalize">
+                  <a href="./single-product.html">Beef Steak</a>
+                </h4>
+                <div class="product-price">
+                  <del>$20</del>
+                  <span class="discount-price">$15 </span>
+                </div>
+                <button
+                  class="btn btn-add-to-cart text-uppercase btn-callToAction"
+                >
+                  Add to cart
+                </button>
+              </div>
+            </div>
+          </row>
+        </div>
+      </section>
+    </main>
 
     <!-- Script Files -->
     <script

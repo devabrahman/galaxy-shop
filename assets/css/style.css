@@ -6,4 +6,5 @@
 /* Hero Section Start */
 @import url(./external/hero-section.css);
 
-/* Hero Section End */
+/* Featured Section */
+@import url(./external/featured-section.css);
