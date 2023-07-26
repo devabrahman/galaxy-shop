@@ -1,18 +1,18 @@
 .hero-fluid {
-  background-color: var(--light-gray);
+  /* background-color: var(--light-gray); */
+  background-color: rgb(94, 42, 42);
   position: relative;
   z-index: 1;
 }
-.hero-fluid::after {
+.hero-fluid::before {
   content: "";
   width: 100%;
   height: 100%;
   left: 0;
   bottom: 0;
-  z-index: -1;
+  z-index: -3;
   position: absolute;
-  background-image: url("../../images/hero-bg.png");
-  background-position: center bottom;
+  background: url("../../images/hero-bg.png") center bottom no-repeat;
 }
 .hero-section .hero-top-overlay {
   position: absolute;
