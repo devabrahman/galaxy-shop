@@ -1,24 +1,15 @@
 @import url(./external/root.css);
 @import url(./external/common.css);
-/* Navigation Start */
+
+/* Home Page Sections Start */
 @import url(./external/navigation.css);
-
-/* Hero Section Start */
 @import url(./external/hero-section.css);
-
-/* Featured Section */
 @import url(./external/featured-section.css);
-
-/* Product Section */
 @import url(./external/product-section.css);
-
-/* About Section */
 @import url(./external/about-section.css);
-
-/* Service Section */
 @import url(./external/service-section.css);
-
-/* Service Section */
 @import url(./external/featured-product-section.css);
-/* Testimonial Section */
 @import url(./external/testimonial-section.css);
+@import url(./external/brad-newsletter-section.css);
+@import url(./external/footer-section.css);
+/* Home Page Sections End */
