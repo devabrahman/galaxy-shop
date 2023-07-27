@@ -2,6 +2,12 @@
 
 @media only screen and (max-width: 576px) {
   /* Common Css Start */
+  .space-top {
+    padding-top: 80px;
+  }
+  .space-bottom {
+    padding-bottom: 80px;
+  }
   .product-card {
     max-width: 100%;
   }
@@ -76,4 +82,23 @@
     margin-bottom: 50px;
   }
   /* Promotion Section End */
+  /* Featured Section Stat */
+  .newsletter-section .newsLater-img {
+    display: none;
+  }
+  .newsletter-from {
+    padding: 20px 10px;
+  }
+  .newsletter-from from > label {
+    font-size: 25px;
+    line-height: 40px;
+  }
+  .newsletter-from from .from-element {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .newsletter-section {
+    margin-bottom: -70px;
+  }
+  /* Featured Section End*/
 }
