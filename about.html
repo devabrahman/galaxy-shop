@@ -130,17 +130,108 @@
           </nav>
           <!-- Navigation End -->
           <!-- Hero content start -->
-          <h1>Welcome To About Page</h1>
+
+          <div class="col-md-3 col-lg-4"></div>
+          <div class="col-md-6 col-lg-4">
+            <div class="hero-card">
+              <div class="pagination">
+                Home <i class="fa-solid fa-arrow-right"></i> About
+              </div>
+              <h2 class="page-title">About Us</h2>
+            </div>
+          </div>
+          <div class="col-md-3 col-lg-4"></div>
           <!-- Hero content End -->
         </div>
       </div>
     </header>
     <!-- Hero Section End -->
     <main>
+      <!-- Overview Section Start -->
+      <div class="container">
+        <div class="content space-top">
+          <div class="row gx-5">
+            <div class="col-md-6">
+              <img
+                src="./assets/images/man-and-woman-with-bug.png"
+                alt="shop image"
+              />
+            </div>
+            <div class="col-md-6 overview-text">
+              <div class="section-titles">
+                <h2 class="title">We Give The Lowest Price on Grocery Items</h2>
+              </div>
+              <p class="overview-description">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Aperiam fugit eaque quam debitis consectetur accusamus at
+                voluptatibus provident dolorem consequuntur?
+              </p>
+              <p class="overview-description">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Aperiam fugit eaque quam debitis consectetur accusamus at
+                voluptatibus provident dolorem consequuntur?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Overview Section End -->
+
+      <!-- Mission Section Start -->
+      <div class="container-fluid mission-section">
+        <div class="content space-top space-bottom">
+          <div class="row gx-5 mission-cards">
+            <div class="col-md-6">
+              <div class="about-card">
+                <div class="section-titles">
+                  <img
+                    class="card-icon"
+                    src="./assets/images/icons/hand-icon.png"
+                    alt="icon"
+                  />
+                  <h2 class="title">our mission</h2>
+                </div>
+                <p class="about-card-description">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Aperiam fugit eaque quam debitis consectetur accusamus at
+                  voluptatibus provident dolorem consequuntur?
+                </p>
+                <button class="btn btn-callToAction-alt">Read more</button>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="about-card">
+                <div class="section-titles">
+                  <img
+                    class="card-icon"
+                    src="./assets/images/icons/graph-icon.png"
+                    alt="icon"
+                  />
+                  <h2 class="title">our mission</h2>
+                </div>
+                <p class="about-card-description">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Aperiam fugit eaque quam debitis consectetur accusamus at
+                  voluptatibus provident ?
+                </p>
+                <button class="btn btn-callToAction-alt">Read more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Mission Section End -->
+
       <!-- Service Section Start -->
       <section class="container">
-        <div class="content services-section space-bottom space-top">
-          <div class="row">
+        <div class="content services-section">
+          <div class="row col-sm-12">
+            <div class="service-video">
+              <img class="" src="./assets/images/video-bg.jpg" alt="" />
+            </div>
+          </div>
+          <div class="row space-top">
             <div class="col-md-3">
               <div class="services d-flex flex-column justify-content-between">
                 <div class="service-card">
@@ -171,10 +262,7 @@
               </div>
             </div>
             <div class="col-md-6 text-center">
-              <img src="./assets/images/red-cart.png" alt="" />
-              <button class="btn btn-callToAction-alt d-inline">
-                SHOP NOW
-              </button>
+              <img src="./assets/images/paper-bag.png" alt="" />
             </div>
             <div class="col-md-3">
               <div class="services d-flex flex-column justify-content-between">
@@ -212,7 +300,7 @@
 
       <!-- Testimonial Section Start -->
       <section class="container">
-        <div class="content space-top space-bottom">
+        <div class="content space-top">
           <div class="row gx-5">
             <div class="col-12 section-titles">
               <h5 class="tagline">Testimonials</h5>
@@ -271,7 +359,7 @@
 
       <!-- Brand & Newsletter Section Start -->
       <section class="container">
-        <div class="content">
+        <div class="content space-top">
           <div class="row">
             <!-- Brand Section Start -->
             <div class="col-md-4"></div>
@@ -307,7 +395,12 @@
                 <from>
                   <label for="email">Subscribe to Newsletter</label>
                   <div class="from-element">
-                    <input type="email" name="email" id="email" />
+                    <input
+                      placeholder="Please Input your Email address"
+                      type="email"
+                      name="email"
+                      id="email"
+                    />
                     <button type="submit" class="btn btn-primary">
                       Subscribe now
                     </button>

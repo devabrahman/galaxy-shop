@@ -13,3 +13,7 @@
 @import url(./external/brad-newsletter-section.css);
 @import url(./external/footer-section.css);
 /* Home Page Sections End */
+
+/* About Page Sections Start */
+@import url(./external/about-page.css);
+/* About Page Sections End */

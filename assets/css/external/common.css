@@ -39,7 +39,36 @@ body {
 .space-bottom {
   padding-bottom: 140px;
 }
-
+/* Common Hero Section */
+.hero-card {
+  background: #fff;
+  border-top: 2px solid var(--accent-color);
+  text-align: center;
+  padding: 50px 30px;
+  font-family: var(--title-font);
+  margin: 100px 0;
+  margin-bottom: 140px;
+  border-radius: 5px;
+  box-shadow: 0px 10px 12px 1px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 10px 12px 1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 10px 12px 1px rgba(0, 0, 0, 0.1);
+}
+.hero-card .pagination {
+  color: var(--accent-color);
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-weight: 500;
+  padding: 10px 0;
+}
+.hero-card .page-title {
+  font-size: 60px;
+  line-height: 75px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
 /* Section-titles Start */
 .section-titles {
   text-align: center;

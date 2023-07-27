@@ -11,6 +11,10 @@
   bottom: 0;
   z-index: -3;
   position: absolute;
+  background: url("../../images/all-hero-bg.jpg") center bottom no-repeat;
+}
+
+.home-page .hero-fluid::before {
   background: url("../../images/hero-bg.png") center bottom no-repeat;
 }
 .hero-section .hero-top-overlay {
